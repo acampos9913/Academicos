@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC7D1269-537E-4AD7-B051-AAD39B0A2F7A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CerrarSesionIntranet.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\camera.css" />
+    <Content Include="css\templatemo_style.css" />
+    <Content Include="Estilos\bootstrap.min.css" />
+    <Content Include="Estilos\cssIniciarSesion.css" />
+    <Content Include="Estilos\cssUsuarios.css" />
+    <Content Include="Estilos\foundation.min.css" />
+    <Content Include="Estilos\images\animated-overlay.gif" />
+    <Content Include="Estilos\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Estilos\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Estilos\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Estilos\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Estilos\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Estilos\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Estilos\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Estilos\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Estilos\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Estilos\images\ui-icons_222222_256x240.png" />
+    <Content Include="Estilos\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Estilos\images\ui-icons_228ef1_256x240_1.png" />
+    <Content Include="Estilos\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Estilos\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Estilos\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Estilos\jquery-ui-1.10.4.css" />
+    <Content Include="Estilos\jquery-ui.css" />
+    <Content Include="Estilos\jquery.ui.datepicker.css" />
+    <Content Include="Estilos\normalize.css" />
+    <Content Include="Estilos\offcanvas.css" />
+    <Content Include="frmAcceso.aspx" />
+    <Content Include="frmAccesoIntranet.aspx" />
+    <Content Include="frmCerrarSesion.aspx" />
+    <Content Include="frmInicio.aspx" />
+    <Content Include="frmInicioIntranet.aspx" />
+    <Content Include="frmListadoLibrosXAutores.aspx" />
+    <Content Include="frmListadoLibrosXCategorias.aspx" />
+    <Content Include="frmListadoLibrosXImagen.aspx" />
+    <Content Include="frmRegistrarLibros.aspx" />
+    <Content Include="frmReservaLibros.aspx" />
+    <Content Include="Imagenes\Editar.png" />
+    <Content Include="Imagenes\Habilitar.png" />
+    <Content Include="Imagenes\Inabilitar.jpg" />
+    <Content Include="Imagenes\libros.png" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\12.jpg" />
+    <Content Include="images\13.jpg" />
+    <Content Include="images\14.jpg" />
+    <Content Include="images\15.jpg" />
+    <Content Include="images\31.jpg" />
+    <Content Include="images\32.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\34.jpg" />
+    <Content Include="images\35.jpg" />
+    <Content Include="images\36.jpg" />
+    <Content Include="images\37.jpg" />
+    <Content Include="images\38.jpg" />
+    <Content Include="images\banner_logo_bg.jpg" />
+    <Content Include="images\banner_slide_01.jpg" />
+    <Content Include="images\banner_slide_02.jpg" />
+    <Content Include="images\banner_slide_03.jpg" />
+    <Content Include="images\blank.gif" />
+    <Content Include="images\camera-loader.gif" />
+    <Content Include="images\camera_skins.png" />
+    <Content Include="images\event_01.jpg" />
+    <Content Include="images\event_02.jpg" />
+    <Content Include="images\event_03.jpg" />
+    <Content Include="images\event_04.jpg" />
+    <Content Include="images\menu_bg.jpg" />
+    <Content Include="images\patterns\overlay1.png" />
+    <Content Include="images\patterns\overlay10.png" />
+    <Content Include="images\patterns\overlay2.png" />
+    <Content Include="images\patterns\overlay3.png" />
+    <Content Include="images\patterns\overlay4.png" />
+    <Content Include="images\patterns\overlay5.png" />
+    <Content Include="images\patterns\overlay6.png" />
+    <Content Include="images\patterns\overlay7.png" />
+    <Content Include="images\patterns\overlay8.png" />
+    <Content Include="images\patterns\overlay9.png" />
+    <Content Include="images\patterns\_notes\dwsync.xml" />
+    <Content Include="images\section-header.png" />
+    <Content Include="images\templatemo_blog_01.jpg" />
+    <Content Include="images\templatemo_blog_02.jpg" />
+    <Content Include="images\templatemo_logo.png" />
+    <Content Include="images\template_mo_blog_01.jpg" />
+    <Content Include="images\template_mo_blog_02.jpg" />
+    <Content Include="images\template_mo_logo.png" />
+    <Content Include="Image\delete.png" />
+    <Content Include="Image\update.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\camera.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.mobile.customized.min.js" />
+    <Content Include="js\jquery.singlePageNav.min.js" />
+    <Content Include="js\templatemo_script.js" />
+    <Content Include="RegistrarUsuario.aspx" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\foundation.min.js" />
+    <Content Include="Scripts\images\ui-icons_888888_256x240.png" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.ui.datepicker-es.min.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jqueryvalidate.js" />
+    <Content Include="Scripts\jsUsuarios.js" />
+    <Content Include="Scripts\offcanvas.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CerrarSesionIntranet.aspx.cs">
+      <DependentUpon>CerrarSesionIntranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CerrarSesionIntranet.aspx.designer.cs">
+      <DependentUpon>CerrarSesionIntranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAcceso.aspx.cs">
+      <DependentUpon>frmAcceso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAcceso.aspx.designer.cs">
+      <DependentUpon>frmAcceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccesoIntranet.aspx.cs">
+      <DependentUpon>frmAccesoIntranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAccesoIntranet.aspx.designer.cs">
+      <DependentUpon>frmAccesoIntranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCerrarSesion.aspx.cs">
+      <DependentUpon>frmCerrarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCerrarSesion.aspx.designer.cs">
+      <DependentUpon>frmCerrarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.aspx.cs">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmInicio.aspx.designer.cs">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioIntranet.aspx.cs">
+      <DependentUpon>frmInicioIntranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmInicioIntranet.aspx.designer.cs">
+      <DependentUpon>frmInicioIntranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoLibrosXAutores.aspx.cs">
+      <DependentUpon>frmListadoLibrosXAutores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmListadoLibrosXAutores.aspx.designer.cs">
+      <DependentUpon>frmListadoLibrosXAutores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoLibrosXCategorias.aspx.cs">
+      <DependentUpon>frmListadoLibrosXCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmListadoLibrosXCategorias.aspx.designer.cs">
+      <DependentUpon>frmListadoLibrosXCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoLibrosXImagen.aspx.cs">
+      <DependentUpon>frmListadoLibrosXImagen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmListadoLibrosXImagen.aspx.designer.cs">
+      <DependentUpon>frmListadoLibrosXImagen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarLibros.aspx.cs">
+      <DependentUpon>frmRegistrarLibros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarLibros.aspx.designer.cs">
+      <DependentUpon>frmRegistrarLibros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservaLibros.aspx.cs">
+      <DependentUpon>frmReservaLibros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmReservaLibros.aspx.designer.cs">
+      <DependentUpon>frmReservaLibros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal2.Master.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal2.Master.designer.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal3.Master.cs">
+      <DependentUpon>Principal3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal3.Master.designer.cs">
+      <DependentUpon>Principal3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalIntranet.Master.cs">
+      <DependentUpon>PrincipalIntranet.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrincipalIntranet.Master.designer.cs">
+      <DependentUpon>PrincipalIntranet.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarUsuario.aspx.cs">
+      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarUsuario.aspx.designer.cs">
+      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Principal.Master" />
+    <Content Include="images\patterns\Thumbs.db" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="Scripts\images\Thumbs.db" />
+    <Content Include="Principal2.Master" />
+    <Content Include="Principal3.Master" />
+    <Content Include="PrincipalIntranet.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
+      <Project>{cb07cedf-8936-4efe-8dca-97af5ca85f6f}</Project>
+      <Name>CapaEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{ff12da8f-e333-4eb8-97b7-639a2abc0332}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1170/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

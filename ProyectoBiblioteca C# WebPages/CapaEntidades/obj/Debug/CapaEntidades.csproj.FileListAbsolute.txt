@@ -1,0 +1,5 @@
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaEntidades\obj\Debug\CapaEntidades.pdb

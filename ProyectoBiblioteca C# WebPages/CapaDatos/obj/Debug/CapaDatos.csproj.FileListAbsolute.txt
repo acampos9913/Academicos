@@ -1,0 +1,14 @@
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.pdb
+G:\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaDatos.dll
+G:\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaDatos.pdb
+G:\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaEntidades.dll
+G:\ProyectoBiblioteca\CapaDatos\bin\Debug\CapaEntidades.pdb
+G:\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+G:\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.dll
+G:\ProyectoBiblioteca\CapaDatos\obj\Debug\CapaDatos.pdb

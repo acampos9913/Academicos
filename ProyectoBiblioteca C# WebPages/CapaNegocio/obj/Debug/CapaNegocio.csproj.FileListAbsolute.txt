@@ -1,0 +1,18 @@
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaEntidades.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaEntidades.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.pdb
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaNegocio.dll
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaNegocio.pdb
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaDatos.dll
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaEntidades.dll
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaDatos.pdb
+G:\ProyectoBiblioteca\CapaNegocio\bin\Debug\CapaEntidades.pdb
+G:\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+G:\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.dll
+G:\ProyectoBiblioteca\CapaNegocio\obj\Debug\CapaNegocio.pdb

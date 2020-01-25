@@ -1,0 +1,22 @@
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\Presentacion.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\Presentacion.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaEntidades.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaNegocio.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaEntidades.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaNegocio.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaDatos.dll
+C:\Users\Julio\Documents\Visual Studio 2012\Projects\ProyectoBiblioteca\Presentacion\bin\CapaDatos.pdb
+G:\ProyectoBiblioteca\Presentacion\bin\Presentacion.dll
+G:\ProyectoBiblioteca\Presentacion\bin\Presentacion.pdb
+G:\ProyectoBiblioteca\Presentacion\bin\CapaEntidades.dll
+G:\ProyectoBiblioteca\Presentacion\bin\CapaNegocio.dll
+G:\ProyectoBiblioteca\Presentacion\bin\CapaDatos.dll
+G:\ProyectoBiblioteca\Presentacion\bin\CapaEntidades.pdb
+G:\ProyectoBiblioteca\Presentacion\bin\CapaNegocio.pdb
+G:\ProyectoBiblioteca\Presentacion\bin\CapaDatos.pdb
+G:\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+G:\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.dll
+G:\ProyectoBiblioteca\Presentacion\obj\Debug\Presentacion.pdb
