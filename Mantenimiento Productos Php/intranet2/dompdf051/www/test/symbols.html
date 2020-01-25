@@ -1,0 +1,1400 @@
+<? php DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+   "http://www.w3.org/TR/REC-html40/strict.dtd">
+<? php tml lang=en>
+<? php ead>
+<? php eta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<? php itle>HTML 4.0 Entities for Symbols and Greek Letters<? php title>
+<? php ink rev=Made href="mailto:liam@htmlhelp.com">
+<? php ink rel=Start href="../index.html">
+<? php ink rel=Prev href="latin1.html">
+<? php ink rel=Next href="special.html">
+<? php tyle>
+body {
+  background: white;
+  color: black
+  font-family: 'bitstream cyberbit', sans-serif;
+}
+
+h1 {
+  color: #c33;
+  background: none;
+  font-weight: bold;
+  text-align: center
+}
+
+h2 {
+  color: #00008b;
+  background: none;
+  font-weight: bold
+}
+
+h3 {
+  color: #006400;
+  background: none;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-weight: bold
+}
+
+h4 {
+  margin-left: 6%;
+  margin-right: 6%;
+  font-weight: bold
+}
+
+h5 {
+  margin-left: 6%;
+  margin-right: 6%;
+  font-weight: bold
+}
+
+ul, ol, dl, p {
+  margin-left: 6%;
+  margin-right: 6%
+}
+
+ul ul, table ol, table ul, dl ol, dl ul {
+  margin-left: 1.2em;
+  margin-right: 1%;
+  padding-left: 0
+}
+
+pre {
+  margin-left: 10%;
+  white-space: pre
+}
+
+table caption {
+  font-size: larger;
+  font-weight: bolder
+}
+
+table p, table dl, ol p, ul p, dl p, blockquote p, .note p, .note ul, .note ol, .note dl, li pre, dd pre {
+  margin-left: 0;
+  margin-right: 0
+}
+
+p.top {
+  margin-left: 1%;
+  margin-right: 1%
+}
+
+blockquote {
+  margin-left: 8%;
+  margin-right: 8%;
+  border: thin ridge #dc143c
+}
+
+blockquote pre {
+  margin-left: 1%;
+  margin-right: 1%
+}
+
+dt a {
+  font-weight: bold;
+  margin-top: .8em
+}
+
+a:link {
+  color: #00f;
+  background: none;
+}
+
+a:visited {
+  color: #800080;
+  background: none;
+}
+
+a:active {
+  color: green;
+  background: #FFD700
+}
+
+.html {
+  color: #000080;
+  background: none
+}
+
+.css {
+  color: #800000;
+  background: none
+}
+
+.javascript {
+  color: #008000;
+  background: none
+}
+
+.example { margin-left: 10% }
+
+dfn {
+  font-style: normal;
+  font-weight: bolder
+}
+
+var sub { font-style: normal }
+
+.note {
+  font-size: 85%;
+  margin-left: 10%
+}
+
+.SMA {
+  color: fuchsia;
+  background: none;
+  font-family: Kids, "Comic Sans MS", Jester
+}
+
+.oops {
+  font-family: Jester, "Comic Sans MS"
+}
+
+.author {
+  font-style: italic
+}
+
+.copyright {
+  font-size: smaller;
+  text-align: right;
+  clear: right
+}
+
+.toolbar {
+  text-align: center
+}
+
+.toolbar IMG {
+  float: right
+}
+
+.error {
+  color: #DC143C;
+  background: none;
+  text-decoration: none
+}
+
+.warning {
+  color: #FF4500;
+  background: none;
+  text-decoration: none
+}
+
+.error strong {
+  color: #DC143C;
+  background: #FFD700;
+  text-decoration: none
+}
+
+.warning strong {
+  color: #FF4500;
+  background: #FFD700;
+  text-decoration: none
+}
+
+.warning a:link, .warning a:visited, .warning a:active {
+  color: #FF4500;
+  background: none;
+  text-decoration: underline
+}
+
+.error a:link, .error a:visited, .error a:active {
+  color: #DC143C;
+  background: none;
+  text-decoration: underline
+}
+
+.error strong a:link, .error strong a:visited, .error strong a:active {
+  color: #DC143C;
+  background: #FFD700
+}
+
+.warning strong a:link, .warning strong a:visited, .warning strong a:active {
+  color: #FF4500;
+  background: #FFD700
+}
+
+colgroup.entity { text-align: center }
+
+.default { text-decoration: underline; font-style: normal }
+.required { font-weight: bold }
+td li.transitional, .elements li.transitional {
+  font-weight: lighter;
+  color: #696969;
+  background: none
+}
+td li.frameset, .elements li.frameset {
+  font-weight: lighter;
+  color: #808080;
+  background: none
+}
+
+.footer, .checkedDocument {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: solid thin black
+}
+
+strong.legal {
+  font-weight: normal;
+  text-transform: uppercase
+}
+
+@media print {
+  input#toggler, .toolbar { display: none }
+}
+
+
+table { border-collapse: collapse; width: 100%; }
+td { border: 0.5pt solid black; }
+
+<? php style>
+<? php eta name="author" content="Liam Quinn">
+<? php eta name="description" content="A table of the HTML 4.0 entities for symbols and Greek letters.">
+<? php eta name="keywords" content="symbols, mathematical symbols, math, Greek letters, alpha, beta, Unicode, entities, characters, character set, HTML, HyperText Markup Language, HTML 4.0, HTML4, character entity reference, decimal, hexadecimal, hex, browser test, WDG, Web Design Group">
+<? php ody>
+<? php 1>Entities for Symbols and Greek Letters<? php h1>
+<? php >The following table gives the character entity reference, decimal character reference, and hexadecimal character reference for symbols and Greek letters, as well as the rendering of each in your browser. <? php  href="http://www.unicode.org/charts/">Glyphs<? php a> of the characters are available at the <? php  href="http://www.unicode.org/">Unicode Consortium<? php a>.<? php p>
+<? php >Browser support for these entities is generally quite poor, but recent browsers support some of the character entity references and decimal character references.<? php p>
+<? php able>
+  <? php head>
+    <? php r>
+      <? php h scope=col rowspan=2>Character<? php th>
+      <? php h scope=col rowspan=2>Entity<? php th>
+      <? php h scope=col rowspan=2>Decimal<? php th>
+      <? php h scope=col rowspan=2>Hex<? php th>
+      <? php h scope=colgroup colspan=3>Rendering in Your Browser<? php th>
+    <? php tr>
+    <? php r>
+      <? php h scope=col>Entity<? php th>
+      <? php h scope=col>Decimal<? php th>
+      <? php h scope=col>Hex<? php th>
+    <? php tr>
+  <? php thead>
+  <? php body>
+    <? php r>
+      <? php d scope=row>Latin small f with hook = function = florin<? php td>
+      <? php d>&amp;fnof;<? php td>
+      <? php d>&amp;#402;<? php td>
+      <? php d>&amp;#x192;<? php td>
+      <? php d>&fnof;<? php td>
+      <? php d>&#402;<? php td>
+      <? php d>&#x192;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter alpha<? php td>
+      <? php d>&amp;Alpha;<? php td>
+      <? php d>&amp;#913;<? php td>
+      <? php d>&amp;#x391;<? php td>
+      <? php d>&Alpha;<? php td>
+      <? php d>&#913;<? php td>
+      <? php d>&#x391;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter beta<? php td>
+      <? php d>&amp;Beta;<? php td>
+      <? php d>&amp;#914;<? php td>
+      <? php d>&amp;#x392;<? php td>
+      <? php d>&Beta;<? php td>
+      <? php d>&#914;<? php td>
+      <? php d>&#x392;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter gamma<? php td>
+      <? php d>&amp;Gamma;<? php td>
+      <? php d>&amp;#915;<? php td>
+      <? php d>&amp;#x393;<? php td>
+      <? php d>&Gamma;<? php td>
+      <? php d>&#915;<? php td>
+      <? php d>&#x393;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter delta<? php td>
+      <? php d>&amp;Delta;<? php td>
+      <? php d>&amp;#916;<? php td>
+      <? php d>&amp;#x394;<? php td>
+      <? php d>&Delta;<? php td>
+      <? php d>&#916;<? php td>
+      <? php d>&#x394;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter epsilon<? php td>
+      <? php d>&amp;Epsilon;<? php td>
+      <? php d>&amp;#917;<? php td>
+      <? php d>&amp;#x395;<? php td>
+      <? php d>&Epsilon;<? php td>
+      <? php d>&#917;<? php td>
+      <? php d>&#x395;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter zeta<? php td>
+      <? php d>&amp;Zeta;<? php td>
+      <? php d>&amp;#918;<? php td>
+      <? php d>&amp;#x396;<? php td>
+      <? php d>&Zeta;<? php td>
+      <? php d>&#918;<? php td>
+      <? php d>&#x396;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter eta<? php td>
+      <? php d>&amp;Eta;<? php td>
+      <? php d>&amp;#919;<? php td>
+      <? php d>&amp;#x397;<? php td>
+      <? php d>&Eta;<? php td>
+      <? php d>&#919;<? php td>
+      <? php d>&#x397;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter theta<? php td>
+      <? php d>&amp;Theta;<? php td>
+      <? php d>&amp;#920;<? php td>
+      <? php d>&amp;#x398;<? php td>
+      <? php d>&Theta;<? php td>
+      <? php d>&#920;<? php td>
+      <? php d>&#x398;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter iota<? php td>
+      <? php d>&amp;Iota;<? php td>
+      <? php d>&amp;#921;<? php td>
+      <? php d>&amp;#x399;<? php td>
+      <? php d>&Iota;<? php td>
+      <? php d>&#921;<? php td>
+      <? php d>&#x399;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter kappa<? php td>
+      <? php d>&amp;Kappa;<? php td>
+      <? php d>&amp;#922;<? php td>
+      <? php d>&amp;#x39A;<? php td>
+      <? php d>&Kappa;<? php td>
+      <? php d>&#922;<? php td>
+      <? php d>&#x39A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter lambda<? php td>
+      <? php d>&amp;Lambda;<? php td>
+      <? php d>&amp;#923;<? php td>
+      <? php d>&amp;#x39B;<? php td>
+      <? php d>&Lambda;<? php td>
+      <? php d>&#923;<? php td>
+      <? php d>&#x39B;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter mu<? php td>
+      <? php d>&amp;Mu;<? php td>
+      <? php d>&amp;#924;<? php td>
+      <? php d>&amp;#x39C;<? php td>
+      <? php d>&Mu;<? php td>
+      <? php d>&#924;<? php td>
+      <? php d>&#x39C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter nu<? php td>
+      <? php d>&amp;Nu;<? php td>
+      <? php d>&amp;#925;<? php td>
+      <? php d>&amp;#x39D;<? php td>
+      <? php d>&Nu;<? php td>
+      <? php d>&#925;<? php td>
+      <? php d>&#x39D;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter xi<? php td>
+      <? php d>&amp;Xi;<? php td>
+      <? php d>&amp;#926;<? php td>
+      <? php d>&amp;#x39E;<? php td>
+      <? php d>&Xi;<? php td>
+      <? php d>&#926;<? php td>
+      <? php d>&#x39E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter omicron<? php td>
+      <? php d>&amp;Omicron;<? php td>
+      <? php d>&amp;#927;<? php td>
+      <? php d>&amp;#x39F;<? php td>
+      <? php d>&Omicron;<? php td>
+      <? php d>&#927;<? php td>
+      <? php d>&#x39F;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter pi<? php td>
+      <? php d>&amp;Pi;<? php td>
+      <? php d>&amp;#928;<? php td>
+      <? php d>&amp;#x3A0;<? php td>
+      <? php d>&Pi;<? php td>
+      <? php d>&#928;<? php td>
+      <? php d>&#x3A0;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter rho<? php td>
+      <? php d>&amp;Rho;<? php td>
+      <? php d>&amp;#929;<? php td>
+      <? php d>&amp;#x3A1;<? php td>
+      <? php d>&Rho;<? php td>
+      <? php d>&#929;<? php td>
+      <? php d>&#x3A1;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter sigma<? php td>
+      <? php d>&amp;Sigma;<? php td>
+      <? php d>&amp;#931;<? php td>
+      <? php d>&amp;#x3A3;<? php td>
+      <? php d>&Sigma;<? php td>
+      <? php d>&#931;<? php td>
+      <? php d>&#x3A3;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter tau<? php td>
+      <? php d>&amp;Tau;<? php td>
+      <? php d>&amp;#932;<? php td>
+      <? php d>&amp;#x3A4;<? php td>
+      <? php d>&Tau;<? php td>
+      <? php d>&#932;<? php td>
+      <? php d>&#x3A4;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter upsilon<? php td>
+      <? php d>&amp;Upsilon;<? php td>
+      <? php d>&amp;#933;<? php td>
+      <? php d>&amp;#x3A5;<? php td>
+      <? php d>&Upsilon;<? php td>
+      <? php d>&#933;<? php td>
+      <? php d>&#x3A5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter phi<? php td>
+      <? php d>&amp;Phi;<? php td>
+      <? php d>&amp;#934;<? php td>
+      <? php d>&amp;#x3A6;<? php td>
+      <? php d>&Phi;<? php td>
+      <? php d>&#934;<? php td>
+      <? php d>&#x3A6;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter chi<? php td>
+      <? php d>&amp;Chi;<? php td>
+      <? php d>&amp;#935;<? php td>
+      <? php d>&amp;#x3A7;<? php td>
+      <? php d>&Chi;<? php td>
+      <? php d>&#935;<? php td>
+      <? php d>&#x3A7;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter psi<? php td>
+      <? php d>&amp;Psi;<? php td>
+      <? php d>&amp;#936;<? php td>
+      <? php d>&amp;#x3A8;<? php td>
+      <? php d>&Psi;<? php td>
+      <? php d>&#936;<? php td>
+      <? php d>&#x3A8;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek capital letter omega<? php td>
+      <? php d>&amp;Omega;<? php td>
+      <? php d>&amp;#937;<? php td>
+      <? php d>&amp;#x3A9;<? php td>
+      <? php d>&Omega;<? php td>
+      <? php d>&#937;<? php td>
+      <? php d>&#x3A9;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter alpha<? php td>
+      <? php d>&amp;alpha;<? php td>
+      <? php d>&amp;#945;<? php td>
+      <? php d>&amp;#x3B1;<? php td>
+      <? php d>&alpha;<? php td>
+      <? php d>&#945;<? php td>
+      <? php d>&#x3B1;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter beta<? php td>
+      <? php d>&amp;beta;<? php td>
+      <? php d>&amp;#946;<? php td>
+      <? php d>&amp;#x3B2;<? php td>
+      <? php d>&beta;<? php td>
+      <? php d>&#946;<? php td>
+      <? php d>&#x3B2;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter gamma<? php td>
+      <? php d>&amp;gamma;<? php td>
+      <? php d>&amp;#947;<? php td>
+      <? php d>&amp;#x3B3;<? php td>
+      <? php d>&gamma;<? php td>
+      <? php d>&#947;<? php td>
+      <? php d>&#x3B3;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter delta<? php td>
+      <? php d>&amp;delta;<? php td>
+      <? php d>&amp;#948;<? php td>
+      <? php d>&amp;#x3B4;<? php td>
+      <? php d>&delta;<? php td>
+      <? php d>&#948;<? php td>
+      <? php d>&#x3B4;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter epsilon<? php td>
+      <? php d>&amp;epsilon;<? php td>
+      <? php d>&amp;#949;<? php td>
+      <? php d>&amp;#x3B5;<? php td>
+      <? php d>&epsilon;<? php td>
+      <? php d>&#949;<? php td>
+      <? php d>&#x3B5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter zeta<? php td>
+      <? php d>&amp;zeta;<? php td>
+      <? php d>&amp;#950;<? php td>
+      <? php d>&amp;#x3B6;<? php td>
+      <? php d>&zeta;<? php td>
+      <? php d>&#950;<? php td>
+      <? php d>&#x3B6;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter eta<? php td>
+      <? php d>&amp;eta;<? php td>
+      <? php d>&amp;#951;<? php td>
+      <? php d>&amp;#x3B7;<? php td>
+      <? php d>&eta;<? php td>
+      <? php d>&#951;<? php td>
+      <? php d>&#x3B7;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter theta<? php td>
+      <? php d>&amp;theta;<? php td>
+      <? php d>&amp;#952;<? php td>
+      <? php d>&amp;#x3B8;<? php td>
+      <? php d>&theta;<? php td>
+      <? php d>&#952;<? php td>
+      <? php d>&#x3B8;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter iota<? php td>
+      <? php d>&amp;iota;<? php td>
+      <? php d>&amp;#953;<? php td>
+      <? php d>&amp;#x3B9;<? php td>
+      <? php d>&iota;<? php td>
+      <? php d>&#953;<? php td>
+      <? php d>&#x3B9;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter kappa<? php td>
+      <? php d>&amp;kappa;<? php td>
+      <? php d>&amp;#954;<? php td>
+      <? php d>&amp;#x3BA;<? php td>
+      <? php d>&kappa;<? php td>
+      <? php d>&#954;<? php td>
+      <? php d>&#x3BA;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter lambda<? php td>
+      <? php d>&amp;lambda;<? php td>
+      <? php d>&amp;#955;<? php td>
+      <? php d>&amp;#x3BB;<? php td>
+      <? php d>&lambda;<? php td>
+      <? php d>&#955;<? php td>
+      <? php d>&#x3BB;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter mu<? php td>
+      <? php d>&amp;mu;<? php td>
+      <? php d>&amp;#956;<? php td>
+      <? php d>&amp;#x3BC;<? php td>
+      <? php d>&mu;<? php td>
+      <? php d>&#956;<? php td>
+      <? php d>&#x3BC;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter nu<? php td>
+      <? php d>&amp;nu;<? php td>
+      <? php d>&amp;#957;<? php td>
+      <? php d>&amp;#x3BD;<? php td>
+      <? php d>&nu;<? php td>
+      <? php d>&#957;<? php td>
+      <? php d>&#x3BD;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter xi<? php td>
+      <? php d>&amp;xi;<? php td>
+      <? php d>&amp;#958;<? php td>
+      <? php d>&amp;#x3BE;<? php td>
+      <? php d>&xi;<? php td>
+      <? php d>&#958;<? php td>
+      <? php d>&#x3BE;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter omicron<? php td>
+      <? php d>&amp;omicron;<? php td>
+      <? php d>&amp;#959;<? php td>
+      <? php d>&amp;#x3BF;<? php td>
+      <? php d>&omicron;<? php td>
+      <? php d>&#959;<? php td>
+      <? php d>&#x3BF;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter pi<? php td>
+      <? php d>&amp;pi;<? php td>
+      <? php d>&amp;#960;<? php td>
+      <? php d>&amp;#x3C0;<? php td>
+      <? php d>&pi;<? php td>
+      <? php d>&#960;<? php td>
+      <? php d>&#x3C0;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter rho<? php td>
+      <? php d>&amp;rho;<? php td>
+      <? php d>&amp;#961;<? php td>
+      <? php d>&amp;#x3C1;<? php td>
+      <? php d>&rho;<? php td>
+      <? php d>&#961;<? php td>
+      <? php d>&#x3C1;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter final sigma<? php td>
+      <? php d>&amp;sigmaf;<? php td>
+      <? php d>&amp;#962;<? php td>
+      <? php d>&amp;#x3C2;<? php td>
+      <? php d>&sigmaf;<? php td>
+      <? php d>&#962;<? php td>
+      <? php d>&#x3C2;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter sigma<? php td>
+      <? php d>&amp;sigma;<? php td>
+      <? php d>&amp;#963;<? php td>
+      <? php d>&amp;#x3C3;<? php td>
+      <? php d>&sigma;<? php td>
+      <? php d>&#963;<? php td>
+      <? php d>&#x3C3;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter tau<? php td>
+      <? php d>&amp;tau;<? php td>
+      <? php d>&amp;#964;<? php td>
+      <? php d>&amp;#x3C4;<? php td>
+      <? php d>&tau;<? php td>
+      <? php d>&#964;<? php td>
+      <? php d>&#x3C4;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter upsilon<? php td>
+      <? php d>&amp;upsilon;<? php td>
+      <? php d>&amp;#965;<? php td>
+      <? php d>&amp;#x3C5;<? php td>
+      <? php d>&upsilon;<? php td>
+      <? php d>&#965;<? php td>
+      <? php d>&#x3C5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter phi<? php td>
+      <? php d>&amp;phi;<? php td>
+      <? php d>&amp;#966;<? php td>
+      <? php d>&amp;#x3C6;<? php td>
+      <? php d>&phi;<? php td>
+      <? php d>&#966;<? php td>
+      <? php d>&#x3C6;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter chi<? php td>
+      <? php d>&amp;chi;<? php td>
+      <? php d>&amp;#967;<? php td>
+      <? php d>&amp;#x3C7;<? php td>
+      <? php d>&chi;<? php td>
+      <? php d>&#967;<? php td>
+      <? php d>&#x3C7;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter psi<? php td>
+      <? php d>&amp;psi;<? php td>
+      <? php d>&amp;#968;<? php td>
+      <? php d>&amp;#x3C8;<? php td>
+      <? php d>&psi;<? php td>
+      <? php d>&#968;<? php td>
+      <? php d>&#x3C8;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter omega<? php td>
+      <? php d>&amp;omega;<? php td>
+      <? php d>&amp;#969;<? php td>
+      <? php d>&amp;#x3C9;<? php td>
+      <? php d>&omega;<? php td>
+      <? php d>&#969;<? php td>
+      <? php d>&#x3C9;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek small letter theta symbol<? php td>
+      <? php d>&amp;thetasym;<? php td>
+      <? php d>&amp;#977;<? php td>
+      <? php d>&amp;#x3D1;<? php td>
+      <? php d>&thetasym;<? php td>
+      <? php d>&#977;<? php td>
+      <? php d>&#x3D1;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek upsilon with hook symbol<? php td>
+      <? php d>&amp;upsih;<? php td>
+      <? php d>&amp;#978;<? php td>
+      <? php d>&amp;#x3D2;<? php td>
+      <? php d>&upsih;<? php td>
+      <? php d>&#978;<? php td>
+      <? php d>&#x3D2;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Greek pi symbol<? php td>
+      <? php d>&amp;piv;<? php td>
+      <? php d>&amp;#982;<? php td>
+      <? php d>&amp;#x3D6;<? php td>
+      <? php d>&piv;<? php td>
+      <? php d>&#982;<? php td>
+      <? php d>&#x3D6;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>bullet = black small circle<? php td>
+      <? php d>&amp;bull;<? php td>
+      <? php d>&amp;#8226;<? php td>
+      <? php d>&amp;#x2022;<? php td>
+      <? php d>&bull;<? php td>
+      <? php d>&#8226;<? php td>
+      <? php d>&#x2022;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>horizontal ellipsis = three dot leader<? php td>
+      <? php d>&amp;hellip;<? php td>
+      <? php d>&amp;#8230;<? php td>
+      <? php d>&amp;#x2026;<? php td>
+      <? php d>&hellip;<? php td>
+      <? php d>&#8230;<? php td>
+      <? php d>&#x2026;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>prime = minutes = feet<? php td>
+      <? php d>&amp;prime;<? php td>
+      <? php d>&amp;#8242;<? php td>
+      <? php d>&amp;#x2032;<? php td>
+      <? php d>&prime;<? php td>
+      <? php d>&#8242;<? php td>
+      <? php d>&#x2032;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>double prime = seconds = inches<? php td>
+      <? php d>&amp;Prime;<? php td>
+      <? php d>&amp;#8243;<? php td>
+      <? php d>&amp;#x2033;<? php td>
+      <? php d>&Prime;<? php td>
+      <? php d>&#8243;<? php td>
+      <? php d>&#x2033;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>overline = spacing overscore<? php td>
+      <? php d>&amp;oline;<? php td>
+      <? php d>&amp;#8254;<? php td>
+      <? php d>&amp;#x203E;<? php td>
+      <? php d>&oline;<? php td>
+      <? php d>&#8254;<? php td>
+      <? php d>&#x203E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>fraction slash<? php td>
+      <? php d>&amp;frasl;<? php td>
+      <? php d>&amp;#8260;<? php td>
+      <? php d>&amp;#x2044;<? php td>
+      <? php d>&frasl;<? php td>
+      <? php d>&#8260;<? php td>
+      <? php d>&#x2044;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>script capital P = power set = Weierstrass p<? php td>
+      <? php d>&amp;weierp;<? php td>
+      <? php d>&amp;#8472;<? php td>
+      <? php d>&amp;#x2118;<? php td>
+      <? php d>&weierp;<? php td>
+      <? php d>&#8472;<? php td>
+      <? php d>&#x2118;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>blackletter capital I = imaginary part<? php td>
+      <? php d>&amp;image;<? php td>
+      <? php d>&amp;#8465;<? php td>
+      <? php d>&amp;#x2111;<? php td>
+      <? php d>&image;<? php td>
+      <? php d>&#8465;<? php td>
+      <? php d>&#x2111;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>blackletter capital R = real part symbol<? php td>
+      <? php d>&amp;real;<? php td>
+      <? php d>&amp;#8476;<? php td>
+      <? php d>&amp;#x211C;<? php td>
+      <? php d>&real;<? php td>
+      <? php d>&#8476;<? php td>
+      <? php d>&#x211C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>trade mark sign<? php td>
+      <? php d>&amp;trade;<? php td>
+      <? php d>&amp;#8482;<? php td>
+      <? php d>&amp;#x2122;<? php td>
+      <? php d>&trade;<? php td>
+      <? php d>&#8482;<? php td>
+      <? php d>&#x2122;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>alef symbol = first transfinite cardinal<? php td>
+      <? php d>&amp;alefsym;<? php td>
+      <? php d>&amp;#8501;<? php td>
+      <? php d>&amp;#x2135;<? php td>
+      <? php d>&alefsym;<? php td>
+      <? php d>&#8501;<? php td>
+      <? php d>&#x2135;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>leftwards arrow<? php td>
+      <? php d>&amp;larr;<? php td>
+      <? php d>&amp;#8592;<? php td>
+      <? php d>&amp;#x2190;<? php td>
+      <? php d>&larr;<? php td>
+      <? php d>&#8592;<? php td>
+      <? php d>&#x2190;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>upwards arrow<? php td>
+      <? php d>&amp;uarr;<? php td>
+      <? php d>&amp;#8593;<? php td>
+      <? php d>&amp;#x2191;<? php td>
+      <? php d>&uarr;<? php td>
+      <? php d>&#8593;<? php td>
+      <? php d>&#x2191;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>rightwards arrow<? php td>
+      <? php d>&amp;rarr;<? php td>
+      <? php d>&amp;#8594;<? php td>
+      <? php d>&amp;#x2192;<? php td>
+      <? php d>&rarr;<? php td>
+      <? php d>&#8594;<? php td>
+      <? php d>&#x2192;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>downwards arrow<? php td>
+      <? php d>&amp;darr;<? php td>
+      <? php d>&amp;#8595;<? php td>
+      <? php d>&amp;#x2193;<? php td>
+      <? php d>&darr;<? php td>
+      <? php d>&#8595;<? php td>
+      <? php d>&#x2193;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left right arrow<? php td>
+      <? php d>&amp;harr;<? php td>
+      <? php d>&amp;#8596;<? php td>
+      <? php d>&amp;#x2194;<? php td>
+      <? php d>&harr;<? php td>
+      <? php d>&#8596;<? php td>
+      <? php d>&#x2194;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>downwards arrow with corner leftwards = carriage return<? php td>
+      <? php d>&amp;crarr;<? php td>
+      <? php d>&amp;#8629;<? php td>
+      <? php d>&amp;#x21B5;<? php td>
+      <? php d>&crarr;<? php td>
+      <? php d>&#8629;<? php td>
+      <? php d>&#x21B5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>leftwards double arrow<? php td>
+      <? php d>&amp;lArr;<? php td>
+      <? php d>&amp;#8656;<? php td>
+      <? php d>&amp;#x21D0;<? php td>
+      <? php d>&lArr;<? php td>
+      <? php d>&#8656;<? php td>
+      <? php d>&#x21D0;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>upwards double arrow<? php td>
+      <? php d>&amp;uArr;<? php td>
+      <? php d>&amp;#8657;<? php td>
+      <? php d>&amp;#x21D1;<? php td>
+      <? php d>&uArr;<? php td>
+      <? php d>&#8657;<? php td>
+      <? php d>&#x21D1;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>rightwards double arrow<? php td>
+      <? php d>&amp;rArr;<? php td>
+      <? php d>&amp;#8658;<? php td>
+      <? php d>&amp;#x21D2;<? php td>
+      <? php d>&rArr;<? php td>
+      <? php d>&#8658;<? php td>
+      <? php d>&#x21D2;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>downwards double arrow<? php td>
+      <? php d>&amp;dArr;<? php td>
+      <? php d>&amp;#8659;<? php td>
+      <? php d>&amp;#x21D3;<? php td>
+      <? php d>&dArr;<? php td>
+      <? php d>&#8659;<? php td>
+      <? php d>&#x21D3;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left right double arrow<? php td>
+      <? php d>&amp;hArr;<? php td>
+      <? php d>&amp;#8660;<? php td>
+      <? php d>&amp;#x21D4;<? php td>
+      <? php d>&hArr;<? php td>
+      <? php d>&#8660;<? php td>
+      <? php d>&#x21D4;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>for all<? php td>
+      <? php d>&amp;forall;<? php td>
+      <? php d>&amp;#8704;<? php td>
+      <? php d>&amp;#x2200;<? php td>
+      <? php d>&forall;<? php td>
+      <? php d>&#8704;<? php td>
+      <? php d>&#x2200;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>partial differential<? php td>
+      <? php d>&amp;part;<? php td>
+      <? php d>&amp;#8706;<? php td>
+      <? php d>&amp;#x2202;<? php td>
+      <? php d>&part;<? php td>
+      <? php d>&#8706;<? php td>
+      <? php d>&#x2202;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>there exists<? php td>
+      <? php d>&amp;exist;<? php td>
+      <? php d>&amp;#8707;<? php td>
+      <? php d>&amp;#x2203;<? php td>
+      <? php d>&exist;<? php td>
+      <? php d>&#8707;<? php td>
+      <? php d>&#x2203;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>empty set = null set = diameter<? php td>
+      <? php d>&amp;empty;<? php td>
+      <? php d>&amp;#8709;<? php td>
+      <? php d>&amp;#x2205;<? php td>
+      <? php d>&empty;<? php td>
+      <? php d>&#8709;<? php td>
+      <? php d>&#x2205;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>nabla = backward difference<? php td>
+      <? php d>&amp;nabla;<? php td>
+      <? php d>&amp;#8711;<? php td>
+      <? php d>&amp;#x2207;<? php td>
+      <? php d>&nabla;<? php td>
+      <? php d>&#8711;<? php td>
+      <? php d>&#x2207;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>element of<? php td>
+      <? php d>&amp;isin;<? php td>
+      <? php d>&amp;#8712;<? php td>
+      <? php d>&amp;#x2208;<? php td>
+      <? php d>&isin;<? php td>
+      <? php d>&#8712;<? php td>
+      <? php d>&#x2208;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>not an element of<? php td>
+      <? php d>&amp;notin;<? php td>
+      <? php d>&amp;#8713;<? php td>
+      <? php d>&amp;#x2209;<? php td>
+      <? php d>&notin;<? php td>
+      <? php d>&#8713;<? php td>
+      <? php d>&#x2209;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>contains as member<? php td>
+      <? php d>&amp;ni;<? php td>
+      <? php d>&amp;#8715;<? php td>
+      <? php d>&amp;#x220B;<? php td>
+      <? php d>&ni;<? php td>
+      <? php d>&#8715;<? php td>
+      <? php d>&#x220B;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>n-ary product = product sign<? php td>
+      <? php d>&amp;prod;<? php td>
+      <? php d>&amp;#8719;<? php td>
+      <? php d>&amp;#x220F;<? php td>
+      <? php d>&prod;<? php td>
+      <? php d>&#8719;<? php td>
+      <? php d>&#x220F;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>n-ary sumation<? php td>
+      <? php d>&amp;sum;<? php td>
+      <? php d>&amp;#8721;<? php td>
+      <? php d>&amp;#x2211;<? php td>
+      <? php d>&sum;<? php td>
+      <? php d>&#8721;<? php td>
+      <? php d>&#x2211;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>minus sign<? php td>
+      <? php d>&amp;minus;<? php td>
+      <? php d>&amp;#8722;<? php td>
+      <? php d>&amp;#x2212;<? php td>
+      <? php d>&minus;<? php td>
+      <? php d>&#8722;<? php td>
+      <? php d>&#x2212;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>asterisk operator<? php td>
+      <? php d>&amp;lowast;<? php td>
+      <? php d>&amp;#8727;<? php td>
+      <? php d>&amp;#x2217;<? php td>
+      <? php d>&lowast;<? php td>
+      <? php d>&#8727;<? php td>
+      <? php d>&#x2217;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>square root = radical sign<? php td>
+      <? php d>&amp;radic;<? php td>
+      <? php d>&amp;#8730;<? php td>
+      <? php d>&amp;#x221A;<? php td>
+      <? php d>&radic;<? php td>
+      <? php d>&#8730;<? php td>
+      <? php d>&#x221A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>proportional to<? php td>
+      <? php d>&amp;prop;<? php td>
+      <? php d>&amp;#8733;<? php td>
+      <? php d>&amp;#x221D;<? php td>
+      <? php d>&prop;<? php td>
+      <? php d>&#8733;<? php td>
+      <? php d>&#x221D;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>infinity<? php td>
+      <? php d>&amp;infin;<? php td>
+      <? php d>&amp;#8734;<? php td>
+      <? php d>&amp;#x221E;<? php td>
+      <? php d>&infin;<? php td>
+      <? php d>&#8734;<? php td>
+      <? php d>&#x221E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>angle<? php td>
+      <? php d>&amp;ang;<? php td>
+      <? php d>&amp;#8736;<? php td>
+      <? php d>&amp;#x2220;<? php td>
+      <? php d>&ang;<? php td>
+      <? php d>&#8736;<? php td>
+      <? php d>&#x2220;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>logical and = wedge<? php td>
+      <? php d>&amp;and;<? php td>
+      <? php d>&amp;#8743;<? php td>
+      <? php d>&amp;#x2227;<? php td>
+      <? php d>&and;<? php td>
+      <? php d>&#8743;<? php td>
+      <? php d>&#x2227;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>logical or = vee<? php td>
+      <? php d>&amp;or;<? php td>
+      <? php d>&amp;#8744;<? php td>
+      <? php d>&amp;#x2228;<? php td>
+      <? php d>&or;<? php td>
+      <? php d>&#8744;<? php td>
+      <? php d>&#x2228;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>intersection = cap<? php td>
+      <? php d>&amp;cap;<? php td>
+      <? php d>&amp;#8745;<? php td>
+      <? php d>&amp;#x2229;<? php td>
+      <? php d>&cap;<? php td>
+      <? php d>&#8745;<? php td>
+      <? php d>&#x2229;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>union = cup<? php td>
+      <? php d>&amp;cup;<? php td>
+      <? php d>&amp;#8746;<? php td>
+      <? php d>&amp;#x222A;<? php td>
+      <? php d>&cup;<? php td>
+      <? php d>&#8746;<? php td>
+      <? php d>&#x222A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>integral<? php td>
+      <? php d>&amp;int;<? php td>
+      <? php d>&amp;#8747;<? php td>
+      <? php d>&amp;#x222B;<? php td>
+      <? php d>&int;<? php td>
+      <? php d>&#8747;<? php td>
+      <? php d>&#x222B;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>therefore<? php td>
+      <? php d>&amp;there4;<? php td>
+      <? php d>&amp;#8756;<? php td>
+      <? php d>&amp;#x2234;<? php td>
+      <? php d>&there4;<? php td>
+      <? php d>&#8756;<? php td>
+      <? php d>&#x2234;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>tilde operator = varies with = similar to<? php td>
+      <? php d>&amp;sim;<? php td>
+      <? php d>&amp;#8764;<? php td>
+      <? php d>&amp;#x223C;<? php td>
+      <? php d>&sim;<? php td>
+      <? php d>&#8764;<? php td>
+      <? php d>&#x223C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>approximately equal to<? php td>
+      <? php d>&amp;cong;<? php td>
+      <? php d>&amp;#8773;<? php td>
+      <? php d>&amp;#x2245;<? php td>
+      <? php d>&cong;<? php td>
+      <? php d>&#8773;<? php td>
+      <? php d>&#x2245;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>almost equal to = asymptotic to<? php td>
+      <? php d>&amp;asymp;<? php td>
+      <? php d>&amp;#8776;<? php td>
+      <? php d>&amp;#x2248;<? php td>
+      <? php d>&asymp;<? php td>
+      <? php d>&#8776;<? php td>
+      <? php d>&#x2248;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>not equal to<? php td>
+      <? php d>&amp;ne;<? php td>
+      <? php d>&amp;#8800;<? php td>
+      <? php d>&amp;#x2260;<? php td>
+      <? php d>&ne;<? php td>
+      <? php d>&#8800;<? php td>
+      <? php d>&#x2260;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>identical to<? php td>
+      <? php d>&amp;equiv;<? php td>
+      <? php d>&amp;#8801;<? php td>
+      <? php d>&amp;#x2261;<? php td>
+      <? php d>&equiv;<? php td>
+      <? php d>&#8801;<? php td>
+      <? php d>&#x2261;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>less-than or equal to<? php td>
+      <? php d>&amp;le;<? php td>
+      <? php d>&amp;#8804;<? php td>
+      <? php d>&amp;#x2264;<? php td>
+      <? php d>&le;<? php td>
+      <? php d>&#8804;<? php td>
+      <? php d>&#x2264;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>greater-than or equal to<? php td>
+      <? php d>&amp;ge;<? php td>
+      <? php d>&amp;#8805;<? php td>
+      <? php d>&amp;#x2265;<? php td>
+      <? php d>&ge;<? php td>
+      <? php d>&#8805;<? php td>
+      <? php d>&#x2265;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>subset of<? php td>
+      <? php d>&amp;sub;<? php td>
+      <? php d>&amp;#8834;<? php td>
+      <? php d>&amp;#x2282;<? php td>
+      <? php d>&sub;<? php td>
+      <? php d>&#8834;<? php td>
+      <? php d>&#x2282;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>superset of<? php td>
+      <? php d>&amp;sup;<? php td>
+      <? php d>&amp;#8835;<? php td>
+      <? php d>&amp;#x2283;<? php td>
+      <? php d>&sup;<? php td>
+      <? php d>&#8835;<? php td>
+      <? php d>&#x2283;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>not a subset of<? php td>
+      <? php d>&amp;nsub;<? php td>
+      <? php d>&amp;#8836;<? php td>
+      <? php d>&amp;#x2284;<? php td>
+      <? php d>&nsub;<? php td>
+      <? php d>&#8836;<? php td>
+      <? php d>&#x2284;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>subset of or equal to<? php td>
+      <? php d>&amp;sube;<? php td>
+      <? php d>&amp;#8838;<? php td>
+      <? php d>&amp;#x2286;<? php td>
+      <? php d>&sube;<? php td>
+      <? php d>&#8838;<? php td>
+      <? php d>&#x2286;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>superset of or equal to<? php td>
+      <? php d>&amp;supe;<? php td>
+      <? php d>&amp;#8839;<? php td>
+      <? php d>&amp;#x2287;<? php td>
+      <? php d>&supe;<? php td>
+      <? php d>&#8839;<? php td>
+      <? php d>&#x2287;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>circled plus = direct sum<? php td>
+      <? php d>&amp;oplus;<? php td>
+      <? php d>&amp;#8853;<? php td>
+      <? php d>&amp;#x2295;<? php td>
+      <? php d>&oplus;<? php td>
+      <? php d>&#8853;<? php td>
+      <? php d>&#x2295;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>circled times = vector product<? php td>
+      <? php d>&amp;otimes;<? php td>
+      <? php d>&amp;#8855;<? php td>
+      <? php d>&amp;#x2297;<? php td>
+      <? php d>&otimes;<? php td>
+      <? php d>&#8855;<? php td>
+      <? php d>&#x2297;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>up tack = orthogonal to = perpendicular<? php td>
+      <? php d>&amp;perp;<? php td>
+      <? php d>&amp;#8869;<? php td>
+      <? php d>&amp;#x22A5;<? php td>
+      <? php d>&perp;<? php td>
+      <? php d>&#8869;<? php td>
+      <? php d>&#x22A5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>dot operator<? php td>
+      <? php d>&amp;sdot;<? php td>
+      <? php d>&amp;#8901;<? php td>
+      <? php d>&amp;#x22C5;<? php td>
+      <? php d>&sdot;<? php td>
+      <? php d>&#8901;<? php td>
+      <? php d>&#x22C5;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left ceiling = APL upstile<? php td>
+      <? php d>&amp;lceil;<? php td>
+      <? php d>&amp;#8968;<? php td>
+      <? php d>&amp;#x2308;<? php td>
+      <? php d>&lceil;<? php td>
+      <? php d>&#8968;<? php td>
+      <? php d>&#x2308;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right ceiling<? php td>
+      <? php d>&amp;rceil;<? php td>
+      <? php d>&amp;#8969;<? php td>
+      <? php d>&amp;#x2309;<? php td>
+      <? php d>&rceil;<? php td>
+      <? php d>&#8969;<? php td>
+      <? php d>&#x2309;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left floor = APL downstile<? php td>
+      <? php d>&amp;lfloor;<? php td>
+      <? php d>&amp;#8970;<? php td>
+      <? php d>&amp;#x230A;<? php td>
+      <? php d>&lfloor;<? php td>
+      <? php d>&#8970;<? php td>
+      <? php d>&#x230A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right floor<? php td>
+      <? php d>&amp;rfloor;<? php td>
+      <? php d>&amp;#8971;<? php td>
+      <? php d>&amp;#x230B;<? php td>
+      <? php d>&rfloor;<? php td>
+      <? php d>&#8971;<? php td>
+      <? php d>&#x230B;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left-pointing angle bracket = bra<? php td>
+      <? php d>&amp;lang;<? php td>
+      <? php d>&amp;#9001;<? php td>
+      <? php d>&amp;#x2329;<? php td>
+      <? php d>&lang;<? php td>
+      <? php d>&#9001;<? php td>
+      <? php d>&#x2329;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right-pointing angle bracket = ket<? php td>
+      <? php d>&amp;rang;<? php td>
+      <? php d>&amp;#9002;<? php td>
+      <? php d>&amp;#x232A;<? php td>
+      <? php d>&rang;<? php td>
+      <? php d>&#9002;<? php td>
+      <? php d>&#x232A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>lozenge<? php td>
+      <? php d>&amp;loz;<? php td>
+      <? php d>&amp;#9674;<? php td>
+      <? php d>&amp;#x25CA;<? php td>
+      <? php d>&loz;<? php td>
+      <? php d>&#9674;<? php td>
+      <? php d>&#x25CA;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>black spade suit<? php td>
+      <? php d>&amp;spades;<? php td>
+      <? php d>&amp;#9824;<? php td>
+      <? php d>&amp;#x2660;<? php td>
+      <? php d>&spades;<? php td>
+      <? php d>&#9824;<? php td>
+      <? php d>&#x2660;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>black club suit = shamrock<? php td>
+      <? php d>&amp;clubs;<? php td>
+      <? php d>&amp;#9827;<? php td>
+      <? php d>&amp;#x2663;<? php td>
+      <? php d>&clubs;<? php td>
+      <? php d>&#9827;<? php td>
+      <? php d>&#x2663;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>black heart suit = valentine<? php td>
+      <? php d>&amp;hearts;<? php td>
+      <? php d>&amp;#9829;<? php td>
+      <? php d>&amp;#x2665;<? php td>
+      <? php d>&hearts;<? php td>
+      <? php d>&#9829;<? php td>
+      <? php d>&#x2665;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>black diamond suit<? php td>
+      <? php d>&amp;diams;<? php td>
+      <? php d>&amp;#9830;<? php td>
+      <? php d>&amp;#x2666;<? php td>
+      <? php d>&diams;<? php td>
+      <? php d>&#9830;<? php td>
+      <? php d>&#x2666;<? php td>
+    <? php tr>
+  <? php tbody>
+<? php table>
+
+<? php iv class=footer>
+<? php ddress>Maintained by <? php  href="http://www.htmlhelp.com/%7Eliam/">Liam Quinn<? php a> &lt;<? php  href="mailto:liam@htmlhelp.com">liam@htmlhelp.com<? php a>&gt;<? php address>
+<? php  class=toolbar><? php mg src="../wdglogo-small.gif" width=105 height=40 alt="Web Design Group&#160;~"> <? php  href="../index.html" rel=Start>HTML&#160;4.0&#160;Reference<? php a>&#160;~ <? php  href="latin1.html" rel=Prev>Latin-1&#160;Characters<? php a>&#160;~ <? php  href="special.html" rel=Next>Other&#160;Special&#160;Characters<? php a><? php p>
+<? php  class=copyright>Copyright &copy; 1998 by <? php  href="http://www.htmlhelp.com/%7Eliam/">Liam Quinn<? php a>. This material may be distributed only subject to the terms and conditions set forth in the Open Publication License, v1.0 or later (the latest version is presently available at <? php  href="http://www.opencontent.org/openpub/">http://www.opencontent.org/openpub/<? php a>).<? php p>
+<? php  class=copyright>Modfications made by Benj Carson <? php >benjcarson@digitaljunkies.ca<? php a> for dompdf, Jan 5, 2006.<? php p>
+<? php div>
+<? php body>
+<? php html>

@@ -1,0 +1,570 @@
+<? php DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+   "http://www.w3.org/TR/REC-html40/strict.dtd">
+<? php tml lang=en>
+<? php ead>
+<? php eta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<? php itle>HTML 4.0 Special Entities<? php title>
+<? php ink rev=Made href="mailto:liam@htmlhelp.com">
+<? php ink rel=Start href="../index.html">
+<? php ink rel=Prev href="symbols.html">
+<? php tyle>
+body {
+  background: white;
+  color: black
+  font-family: 'bitstream cyberbit', sans-serif;
+}
+
+h1 {
+  color: #c33;
+  background: none;
+  font-weight: bold;
+  text-align: center
+}
+
+h2 {
+  color: #00008b;
+  background: none;
+  font-weight: bold
+}
+
+h3 {
+  color: #006400;
+  background: none;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-weight: bold
+}
+
+h4 {
+  margin-left: 6%;
+  margin-right: 6%;
+  font-weight: bold
+}
+
+h5 {
+  margin-left: 6%;
+  margin-right: 6%;
+  font-weight: bold
+}
+
+ul, ol, dl, p {
+  margin-left: 6%;
+  margin-right: 6%
+}
+
+ul ul, table ol, table ul, dl ol, dl ul {
+  margin-left: 1.2em;
+  margin-right: 1%;
+  padding-left: 0
+}
+
+pre {
+  margin-left: 10%;
+  white-space: pre
+}
+
+table caption {
+  font-size: larger;
+  font-weight: bolder
+}
+
+table p, table dl, ol p, ul p, dl p, blockquote p, .note p, .note ul, .note ol, .note dl, li pre, dd pre {
+  margin-left: 0;
+  margin-right: 0
+}
+
+p.top {
+  margin-left: 1%;
+  margin-right: 1%
+}
+
+blockquote {
+  margin-left: 8%;
+  margin-right: 8%;
+  border: thin ridge #dc143c
+}
+
+blockquote pre {
+  margin-left: 1%;
+  margin-right: 1%
+}
+
+dt a {
+  font-weight: bold;
+  margin-top: .8em
+}
+
+a:link {
+  color: #00f;
+  background: none;
+}
+
+a:visited {
+  color: #800080;
+  background: none;
+}
+
+a:active {
+  color: green;
+  background: #FFD700
+}
+
+.html {
+  color: #000080;
+  background: none
+}
+
+.css {
+  color: #800000;
+  background: none
+}
+
+.javascript {
+  color: #008000;
+  background: none
+}
+
+.example { margin-left: 10% }
+
+dfn {
+  font-style: normal;
+  font-weight: bolder
+}
+
+var sub { font-style: normal }
+
+.note {
+  font-size: 85%;
+  margin-left: 10%
+}
+
+.SMA {
+  color: fuchsia;
+  background: none;
+  font-family: Kids, "Comic Sans MS", Jester
+}
+
+.oops {
+  font-family: Jester, "Comic Sans MS"
+}
+
+.author {
+  font-style: italic
+}
+
+.copyright {
+  font-size: smaller;
+  text-align: right;
+  clear: right
+}
+
+.toolbar {
+  text-align: center
+}
+
+.toolbar IMG {
+  float: right
+}
+
+.error {
+  color: #DC143C;
+  background: none;
+  text-decoration: none
+}
+
+.warning {
+  color: #FF4500;
+  background: none;
+  text-decoration: none
+}
+
+.error strong {
+  color: #DC143C;
+  background: #FFD700;
+  text-decoration: none
+}
+
+.warning strong {
+  color: #FF4500;
+  background: #FFD700;
+  text-decoration: none
+}
+
+.warning a:link, .warning a:visited, .warning a:active {
+  color: #FF4500;
+  background: none;
+  text-decoration: underline
+}
+
+.error a:link, .error a:visited, .error a:active {
+  color: #DC143C;
+  background: none;
+  text-decoration: underline
+}
+
+.error strong a:link, .error strong a:visited, .error strong a:active {
+  color: #DC143C;
+  background: #FFD700
+}
+
+.warning strong a:link, .warning strong a:visited, .warning strong a:active {
+  color: #FF4500;
+  background: #FFD700
+}
+
+colgroup.entity { text-align: center }
+
+.default { text-decoration: underline; font-style: normal }
+.required { font-weight: bold }
+td li.transitional, .elements li.transitional {
+  font-weight: lighter;
+  color: #696969;
+  background: none
+}
+td li.frameset, .elements li.frameset {
+  font-weight: lighter;
+  color: #808080;
+  background: none
+}
+
+.footer, .checkedDocument {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: solid thin black
+}
+
+strong.legal {
+  font-weight: normal;
+  text-transform: uppercase
+}
+
+@media print {
+  input#toggler, .toolbar { display: none }
+}
+
+table { border-collapse: collapse; width: 100%; }
+td { border: 0.5pt solid black; }
+
+<? php style>
+<? php eta name="author" content="Liam Quinn">
+<? php eta name="description" content="A table of the HTML 4.0 entities for markup-significant and internationalization characters.">
+<? php eta name="keywords" content="internationalization, internationalisation, i18n, I18N, entities, characters, character set, HTML, HyperText Markup Language, HTML 4.0, HTML4, character entity reference, decimal, hexadecimal, hex, browser test, WDG, Web Design Group">
+<? php ody>
+<? php 1>Special Entities<? php h1>
+<? php >The following table gives the character entity reference, decimal character reference, and hexadecimal character reference for markup-significant and internationalization characters, as well as the rendering of each in your browser. <? php  href="http://www.unicode.org/charts/">Glyphs<? php a> of the characters are available at the <? php  href="http://www.unicode.org/">Unicode Consortium<? php a>.<? php p>
+<? php >With the exception of <? php  href="http://www.w3.org/MarkUp/html-spec/">HTML 2.0<? php a>'s <? php trong class=html>&amp;quot;<? php strong>, <? php trong class=html>&amp;amp;<? php strong>, <? php trong class=html>&amp;lt;<? php strong>, and <? php trong class=html>&amp;gt;<? php strong>, browser support for these entities is generally quite poor, but recent browsers support some of the character entity references and decimal character references.<? php p>
+<? php able>
+  <? php head>
+    <? php r>
+      <? php h scope=col rowspan=2>Character<? php th>
+      <? php h scope=col rowspan=2>Entity<? php th>
+      <? php h scope=col rowspan=2>Decimal<? php th>
+      <? php h scope=col rowspan=2>Hex<? php th>
+      <? php h scope=colgroup colspan=3>Rendering in Your Browser<? php th>
+    <? php tr>
+    <? php r>
+      <? php h scope=col>Entity<? php th>
+      <? php h scope=col>Decimal<? php th>
+      <? php h scope=col>Hex<? php th>
+    <? php tr>
+  <? php thead>
+  <? php body>
+    <? php r>
+      <? php d scope=row>quotation mark = APL quote<? php td>
+      <? php d>&amp;quot;<? php td>
+      <? php d>&amp;#34;<? php td>
+      <? php d>&amp;#x22;<? php td>
+      <? php d>&quot;<? php td>
+      <? php d>&#34;<? php td>
+      <? php d>&#x22;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>ampersand<? php td>
+      <? php d>&amp;amp;<? php td>
+      <? php d>&amp;#38;<? php td>
+      <? php d>&amp;#x26;<? php td>
+      <? php d>&amp;<? php td>
+      <? php d>&#38;<? php td>
+      <? php d>&#x26;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>less-than sign<? php td>
+      <? php d>&amp;lt;<? php td>
+      <? php d>&amp;#60;<? php td>
+      <? php d>&amp;#x3C;<? php td>
+      <? php d>&lt;<? php td>
+      <? php d>&#60;<? php td>
+      <? php d>&#x3C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>greater-than sign<? php td>
+      <? php d>&amp;gt;<? php td>
+      <? php d>&amp;#62;<? php td>
+      <? php d>&amp;#x3E;<? php td>
+      <? php d>&gt;<? php td>
+      <? php d>&#62;<? php td>
+      <? php d>&#x3E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Latin capital ligature OE<? php td>
+      <? php d>&amp;OElig;<? php td>
+      <? php d>&amp;#338;<? php td>
+      <? php d>&amp;#x152;<? php td>
+      <? php d>&OElig;<? php td>
+      <? php d>&#338;<? php td>
+      <? php d>&#x152;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Latin small ligature oe<? php td>
+      <? php d>&amp;oelig;<? php td>
+      <? php d>&amp;#339;<? php td>
+      <? php d>&amp;#x153;<? php td>
+      <? php d>&oelig;<? php td>
+      <? php d>&#339;<? php td>
+      <? php d>&#x153;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Latin capital letter S with caron<? php td>
+      <? php d>&amp;Scaron;<? php td>
+      <? php d>&amp;#352;<? php td>
+      <? php d>&amp;#x160;<? php td>
+      <? php d>&Scaron;<? php td>
+      <? php d>&#352;<? php td>
+      <? php d>&#x160;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Latin small letter s with caron<? php td>
+      <? php d>&amp;scaron;<? php td>
+      <? php d>&amp;#353;<? php td>
+      <? php d>&amp;#x161;<? php td>
+      <? php d>&scaron;<? php td>
+      <? php d>&#353;<? php td>
+      <? php d>&#x161;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>Latin capital letter Y with diaeresis<? php td>
+      <? php d>&amp;Yuml;<? php td>
+      <? php d>&amp;#376;<? php td>
+      <? php d>&amp;#x178;<? php td>
+      <? php d>&Yuml;<? php td>
+      <? php d>&#376;<? php td>
+      <? php d>&#x178;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>modifier letter circumflex accent<? php td>
+      <? php d>&amp;circ;<? php td>
+      <? php d>&amp;#710;<? php td>
+      <? php d>&amp;#x2C6;<? php td>
+      <? php d>&circ;<? php td>
+      <? php d>&#710;<? php td>
+      <? php d>&#x2C6;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>small tilde<? php td>
+      <? php d>&amp;tilde;<? php td>
+      <? php d>&amp;#732;<? php td>
+      <? php d>&amp;#x2DC;<? php td>
+      <? php d>&tilde;<? php td>
+      <? php d>&#732;<? php td>
+      <? php d>&#x2DC;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>en space<? php td>
+      <? php d>&amp;ensp;<? php td>
+      <? php d>&amp;#8194;<? php td>
+      <? php d>&amp;#x2002;<? php td>
+      <? php d>&ensp;<? php td>
+      <? php d>&#8194;<? php td>
+      <? php d>&#x2002;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>em space<? php td>
+      <? php d>&amp;emsp;<? php td>
+      <? php d>&amp;#8195;<? php td>
+      <? php d>&amp;#x2003;<? php td>
+      <? php d>&emsp;<? php td>
+      <? php d>&#8195;<? php td>
+      <? php d>&#x2003;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>thin space<? php td>
+      <? php d>&amp;thinsp;<? php td>
+      <? php d>&amp;#8201;<? php td>
+      <? php d>&amp;#x2009;<? php td>
+      <? php d>&thinsp;<? php td>
+      <? php d>&#8201;<? php td>
+      <? php d>&#x2009;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>zero width non-joiner<? php td>
+      <? php d>&amp;zwnj;<? php td>
+      <? php d>&amp;#8204;<? php td>
+      <? php d>&amp;#x200C;<? php td>
+      <? php d>&zwnj;<? php td>
+      <? php d>&#8204;<? php td>
+      <? php d>&#x200C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>zero width joiner<? php td>
+      <? php d>&amp;zwj;<? php td>
+      <? php d>&amp;#8205;<? php td>
+      <? php d>&amp;#x200D;<? php td>
+      <? php d>&zwj;<? php td>
+      <? php d>&#8205;<? php td>
+      <? php d>&#x200D;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left-to-right mark<? php td>
+      <? php d>&amp;lrm;<? php td>
+      <? php d>&amp;#8206;<? php td>
+      <? php d>&amp;#x200E;<? php td>
+      <? php d>&lrm;<? php td>
+      <? php d>&#8206;<? php td>
+      <? php d>&#x200E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right-to-left mark<? php td>
+      <? php d>&amp;rlm;<? php td>
+      <? php d>&amp;#8207;<? php td>
+      <? php d>&amp;#x200F;<? php td>
+      <? php d>&rlm;<? php td>
+      <? php d>&#8207;<? php td>
+      <? php d>&#x200F;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>en dash<? php td>
+      <? php d>&amp;ndash;<? php td>
+      <? php d>&amp;#8211;<? php td>
+      <? php d>&amp;#x2013;<? php td>
+      <? php d>&ndash;<? php td>
+      <? php d>&#8211;<? php td>
+      <? php d>&#x2013;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>em dash<? php td>
+      <? php d>&amp;mdash;<? php td>
+      <? php d>&amp;#8212;<? php td>
+      <? php d>&amp;#x2014;<? php td>
+      <? php d>&mdash;<? php td>
+      <? php d>&#8212;<? php td>
+      <? php d>&#x2014;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left single quotation mark<? php td>
+      <? php d>&amp;lsquo;<? php td>
+      <? php d>&amp;#8216;<? php td>
+      <? php d>&amp;#x2018;<? php td>
+      <? php d>&lsquo;<? php td>
+      <? php d>&#8216;<? php td>
+      <? php d>&#x2018;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right single quotation mark<? php td>
+      <? php d>&amp;rsquo;<? php td>
+      <? php d>&amp;#8217;<? php td>
+      <? php d>&amp;#x2019;<? php td>
+      <? php d>&rsquo;<? php td>
+      <? php d>&#8217;<? php td>
+      <? php d>&#x2019;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>single low-9 quotation mark<? php td>
+      <? php d>&amp;sbquo;<? php td>
+      <? php d>&amp;#8218;<? php td>
+      <? php d>&amp;#x201A;<? php td>
+      <? php d>&sbquo;<? php td>
+      <? php d>&#8218;<? php td>
+      <? php d>&#x201A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>left double quotation mark<? php td>
+      <? php d>&amp;ldquo;<? php td>
+      <? php d>&amp;#8220;<? php td>
+      <? php d>&amp;#x201C;<? php td>
+      <? php d>&ldquo;<? php td>
+      <? php d>&#8220;<? php td>
+      <? php d>&#x201C;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>right double quotation mark<? php td>
+      <? php d>&amp;rdquo;<? php td>
+      <? php d>&amp;#8221;<? php td>
+      <? php d>&amp;#x201D;<? php td>
+      <? php d>&rdquo;<? php td>
+      <? php d>&#8221;<? php td>
+      <? php d>&#x201D;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>double low-9 quotation mark<? php td>
+      <? php d>&amp;bdquo;<? php td>
+      <? php d>&amp;#8222;<? php td>
+      <? php d>&amp;#x201E;<? php td>
+      <? php d>&bdquo;<? php td>
+      <? php d>&#8222;<? php td>
+      <? php d>&#x201E;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>dagger<? php td>
+      <? php d>&amp;dagger;<? php td>
+      <? php d>&amp;#8224;<? php td>
+      <? php d>&amp;#x2020;<? php td>
+      <? php d>&dagger;<? php td>
+      <? php d>&#8224;<? php td>
+      <? php d>&#x2020;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>double dagger<? php td>
+      <? php d>&amp;Dagger;<? php td>
+      <? php d>&amp;#8225;<? php td>
+      <? php d>&amp;#x2021;<? php td>
+      <? php d>&Dagger;<? php td>
+      <? php d>&#8225;<? php td>
+      <? php d>&#x2021;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>per mille sign<? php td>
+      <? php d>&amp;permil;<? php td>
+      <? php d>&amp;#8240;<? php td>
+      <? php d>&amp;#x2030;<? php td>
+      <? php d>&permil;<? php td>
+      <? php d>&#8240;<? php td>
+      <? php d>&#x2030;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>single left-pointing angle quotation mark<? php td>
+      <? php d>&amp;lsaquo;<? php td>
+      <? php d>&amp;#8249;<? php td>
+      <? php d>&amp;#x2039;<? php td>
+      <? php d>&lsaquo;<? php td>
+      <? php d>&#8249;<? php td>
+      <? php d>&#x2039;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>single right-pointing angle quotation mark<? php td>
+      <? php d>&amp;rsaquo;<? php td>
+      <? php d>&amp;#8250;<? php td>
+      <? php d>&amp;#x203A;<? php td>
+      <? php d>&rsaquo;<? php td>
+      <? php d>&#8250;<? php td>
+      <? php d>&#x203A;<? php td>
+    <? php tr>
+    <? php r>
+      <? php d scope=row>euro sign<? php td>
+      <? php d>&amp;euro;<? php td>
+      <? php d>&amp;#8364;<? php td>
+      <? php d>&amp;#x20AC;<? php td>
+      <? php d>&euro;<? php td>
+      <? php d>&#8364;<? php td>
+      <? php d>&#x20AC;<? php td>
+    <? php tr>
+  <? php tbody>
+<? php table>
+
+<? php iv class=footer>
+<? php ddress>Maintained by <? php  href="http://www.htmlhelp.com/%7Eliam/">Liam Quinn<? php a> &lt;<? php  href="mailto:liam@htmlhelp.com">liam@htmlhelp.com<? php a>&gt;<? php address>
+<? php  class=toolbar><? php mg src="../wdglogo-small.gif" width=105 height=40 alt="Web Design Group&#160;~"> <? php  href="../index.html" rel=Start>HTML&#160;4.0&#160;Reference<? php a>&#160;~ <? php  href="latin1.html">Latin-1&#160;Characters<? php a>&#160;~ <? php  href="symbols.html" rel=Prev>Symbols&#160;and&#160;Greek&#160;Letters<? php a><? php p>
+<? php  class=copyright>Copyright &copy; 1998 by <? php  href="http://www.htmlhelp.com/%7Eliam/">Liam Quinn<? php a>. This material may be distributed only subject to the terms and conditions set forth in the Open Publication License, v1.0 or later (the latest version is presently available at <? php  href="http://www.opencontent.org/openpub/">http://www.opencontent.org/openpub/<? php a>).<? php p>
+<? php  class=copyright>Modfications made by Benj Carson <? php >benjcarson@digitaljunkies.ca<? php a> for dompdf, Jan 5, 2006.<? php p>
+<? php div>
+<? php body>
+<? php html>

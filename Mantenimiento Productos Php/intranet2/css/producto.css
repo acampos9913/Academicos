@@ -1,0 +1,28 @@
+#producto{
+position:relative; 
+width: 100%; 
+height: 40%;
+/*border: 1px solid;*/
+float:left;
+line-height:1%;
+}
+
+#producto form{
+position:relative; 
+}
+
+#bajo{
+position:relative; 
+/*margin-top:30%;*/
+height:35%;
+width:100%;
+float:left;
+/*border: 1px solid;
+margin: 30% 0%;*/
+}
+
+#result{
+text-align: center; 
+width:100%;
+margin: 3% 0%;
+}
